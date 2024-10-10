@@ -3,7 +3,8 @@ Improving compound-protein interaction prediction by focusing on intra-modality 
 ![image](https://github.com/wangmeng-code/MMTF-CPI/blob/main/workflow/MMTF-CPI_workflow.png)
 
 # Requirements
-Python==3.7。
+```python
+Python==3.7  
 pytorch==1.7.1+cu101  
 RDKit==2022.9.5  
 dgl-cuda10.1==0.6.0  
@@ -13,6 +14,7 @@ numpy==1.16.2
 pandas==1.0.1  
 scikit-learn==1.0.2  
 scipy=1.7.3  
+```
 
 # Usage
 Training model with the following command:
